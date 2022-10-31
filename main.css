@@ -2,3 +2,31 @@
 .hidden {
     display: none;
 } */
+
+.body {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.title {
+    font-size: 80px;
+}
+
+/* .form {
+    display: flex;
+    align-content: center;
+} */
+
+.choose-race {
+    font-size: 20px;
+}
+
+.btn {
+    font-size: 20px;
+}
+
+.result {
+    font-size: 30px;
+}

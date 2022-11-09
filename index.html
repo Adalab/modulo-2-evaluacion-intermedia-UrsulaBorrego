@@ -12,17 +12,22 @@
       <h1 class="title">Los anillos del poder</h1>
       <form class="form js-form" action="">
         <select name="" id="" class="js-choose-race choose-race">
-          <option value="" class="choose">Seleccione la raza con que vas a jugar</option>
-          <option class="race-good1" value="1">Pelosos</option>
-          <option class="race-good2" value="2">Sureños buenos</option>
-          <option class="race-good3" value="3">Enanos</option>
-          <option class="race-good4" value="4">Númenóreanos</option>
-          <option class="race-good5" value="5">Elfos</option>
+          <option value="" disabled selected hiddenclass="choose">Seleccione la raza con que vas a jugar</option>
+          <option class="race-good" value="1" name="Pelosos">Pelosos</option>
+          <option class="race-good" value="2" name="Sureños buenos">Sureños buenos</option>
+          <option class="race-good" value="3" name="Enanos">Enanos</option>
+          <option class="race-good" value="4" name="Númenóreanos">Númenóreanos</option>
+          <option class="race-good" value="5" name="Elfos">Elfos</option>
         </select>
 
         <button class="js-btn btn">Batalla</button>
+        <button class="js-reset-btn btn hidden">Reiniciar</button>
       </form>
-      <label for="" class="js-result result hidden">¡Comienza la batalla!</label>
+      <p class="js-result result">¡Comienza la batalla!</p>
+      <p class="counter">Contador:
+        <span class="js-good-counter"></span>
+        <span class="js-bad-counter"></span>
+      </p>
     </main>
     <script type="text/javascript" src="./main.js"></script>
   </body>

@@ -1,6 +1,7 @@
 'use strict';
 
 //QUERYSELECTOR
+
 //Select
 const chooseRace = document.querySelector('.js-choose-race');
 //Botón Batalla
@@ -9,15 +10,6 @@ const btn = document.querySelector('.js-btn');
 const result = document.querySelector('.js-result');
 //Botón reset
 const resetBtn = document.querySelector('.js-reset-btn');
-
-// //Array Bad guys
-// const badGuysArray = [
-//     {name: 'Sureños malos', value:2},
-//     {name: 'Orcos', value:2},
-//     {name: 'Goblins', value:2},
-//     {name: 'Huargos', value:3},
-//     {name: 'Trolls', value:5},
-// ];
 
 //Párrafos contadores buenos/malos
 const goodCounter = document.querySelector('.js-good-counter');
@@ -64,7 +56,6 @@ function getVillainRace() {
     }
     return randomBadGuy;
 };
-
 
 //Función para comparar valores de razas buenas y malas
 function getResult() {

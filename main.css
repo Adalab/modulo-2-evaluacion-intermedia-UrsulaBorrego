@@ -4,7 +4,7 @@
 }
 
 .main {
-    height: 80vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -12,12 +12,8 @@
 
 .title {
     font-size: 80px;
+    background-color: rgb(250, 249, 249);
 }
-
-/* .form {
-    display: flex;
-    align-content: center;
-} */
 
 .choose-race {
     font-size: 20px;
@@ -29,4 +25,9 @@
 
 .result {
     font-size: 30px;
+    background-color: rgb(250, 249, 249);
+}
+
+.counter {
+    background-color: rgb(250, 249, 249);
 }
